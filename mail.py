@@ -49,5 +49,3 @@ server = smtplib.SMTP_SSL('smtp.yandex.ru', 465)
 server.login(login, password)
 server.sendmail(sender_name,friend_name, letter)
 server.quit()
-
-print(letter)
