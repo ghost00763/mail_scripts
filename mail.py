@@ -37,8 +37,8 @@ Content-Type: text/plain; charset="UTF-8";
 Comment
 """
 
-letter = letter.replace("ivan@yandex.ru","devmanorg@yandex.ru")
-letter = letter.replace("petr@yandex.ru","gergygho@yandex.ru")
+letter = letter.replace("ivan@yandex.ru",sender_name)
+letter = letter.replace("petr@yandex.ru",friend_name)
 letter = letter.replace("%website%","https://dvmn.org/profession-ref-program/boshkaev2001/UAMDR/" )
 letter = letter.replace("%friend_name%","Грек")
 letter = letter.replace("%my_name%","Иван")
